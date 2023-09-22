@@ -2,7 +2,7 @@ spring:
   application:
     name: account-service
   datasource:
-    username: root
+    username: newroot
     password: root
     url: jdbc:mysql://localhost:3306/accountdb
     hikari:
