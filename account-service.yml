@@ -31,10 +31,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh
-  endpoint:
-    health:
-      show-details: always
-      group:
-        custom:
-          show-components: always
+        include: refresh, health
