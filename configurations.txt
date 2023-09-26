@@ -1,1 +1,14 @@
 account-service : 9000
+
+//in eureka service we need to keep Self-Preservation
+
+
+//In the service application yml file
+eureka.instance.lease-renewal-interval-in-seconds=30
+
+
+//yml file
+spring.jackson.property-naming-strategy=SNAKE_CASE
+
+//for specific
+@JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
