@@ -29,5 +29,5 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 jwt:
   secret: mySecretKey
-  expireMs: 10000
-  refrEshexpireMs: 10000
+  expireMs: 12000
+  refrEshexpireMs: 12000
